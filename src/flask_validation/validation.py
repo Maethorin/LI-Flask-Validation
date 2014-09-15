@@ -1,10 +1,11 @@
 import inspect
 import functools
 import json
+# from flask.exceptions import JSONBadRequest
+from werkzeug.exceptions import BadRequest as JSONBadRequest
 from traceback import format_exception
 from flask import jsonify, request
 import sys
-from flask.exceptions import JSONBadRequest
 
 from flask import Flask
 import re
