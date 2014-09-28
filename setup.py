@@ -33,12 +33,12 @@ def read(fname):
 
 setup(
     name='li-flask-validation',
-    version='develop',
+    version='1.0.0',
     url='https://github.com/lojaintegrada/LI-Flask-Validation',
     license='LIEULA',
-    description='Loja Integrada\'s models for Django ORM.',
-    author=u'Udlei Nattis',
-    author_email='udlei.nattis@lojaintegrada.com.br',
+    description='Flask Validation.',
+    author=u'Loja Integrada',
+    author_email='contato@lojaintegrada.com.br',
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
@@ -53,5 +53,5 @@ setup(
         ],
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=['distribute', 'Django>=1.6'],
+    install_requires=['distribute', 'Django==1.6.7'],
 )
