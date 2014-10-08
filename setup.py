@@ -53,5 +53,5 @@ setup(
         ],
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=['distribute', 'Django==1.6.7'],
+    install_requires=['distribute'],
 )
