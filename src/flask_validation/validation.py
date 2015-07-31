@@ -18,7 +18,8 @@ def api_error_response(code=404, message="Requested resource was not found", err
         appropriate error messages and code.
     """
 
-    response = jsonify(dict(code=code, message=message, errors=errors, success=False))
+    # response = jsonify(dict(code=code, message=message, errors=errors, success=False))
+    response = jsonify(dict(code=code, message=message))
     response.status_code = code
     return response
 
