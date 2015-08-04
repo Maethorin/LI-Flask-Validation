@@ -33,7 +33,7 @@ def read(fname):
 
 setup(
     name='li-flask-validation',
-    version='1.0.3',
+    version='1.0.4',
     url='https://github.com/lojaintegrada/LI-Flask-Validation',
     license='LIEULA',
     description='Flask Validation.',
